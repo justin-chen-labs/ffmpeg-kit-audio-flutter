@@ -45,7 +45,7 @@ Add `ffmpeg_kit_audio_flutter` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  ffmpeg_kit_audio_flutter: 1.0.1
+  ffmpeg_kit_audio_flutter: 1.0.4
 ```
 
 ### 3. Platform Support
