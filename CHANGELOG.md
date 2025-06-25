@@ -1,4 +1,7 @@
 
+## 1.0.3
+- Update pubspec.yaml repository desc
+
 ## 1.0.2
 - Update repository, remove macos 
 
