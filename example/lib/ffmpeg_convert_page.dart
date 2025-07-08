@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:ffmpeg_kit_https_flutter/ffmpeg_kit.dart';
-import 'package:ffmpeg_kit_https_flutter/ffprobe_kit.dart';
-import 'package:ffmpeg_kit_https_flutter/return_code.dart';
+import 'package:ffmpeg_kit_audio_flutter/ffmpeg_kit.dart';
+import 'package:ffmpeg_kit_audio_flutter/ffprobe_kit.dart';
+import 'package:ffmpeg_kit_audio_flutter/return_code.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
@@ -33,8 +33,7 @@ class _FfmpegConvertPageState extends State<FfmpegConvertPage> {
     });
 
     // 1. 复制 assets mp3 到临时目录
-    File inputFile = await _copyAssetToFile(
-        'assets/EternalFlame_TheBangles.mp3', 'test.mp3');
+    File inputFile = await _copyAssetToFile('assets/EternalFlame_TheBangles.mp3', 'test.mp3');
     String inputPath = inputFile.path;
 
     // 2. 输出路径

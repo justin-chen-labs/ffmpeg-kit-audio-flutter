@@ -1,9 +1,7 @@
-import 'package:ffmpeg_kit_https_flutter/ffmpeg_kit.dart';
-import 'package:ffmpeg_kit_https_flutter/return_code.dart';
+import 'package:ffmpeg_kit_audio_flutter/ffmpeg_kit.dart';
+import 'package:ffmpeg_kit_audio_flutter/return_code.dart';
 import 'package:flutter/material.dart';
-
 import 'ffmpeg_convert_page.dart';
-import 'ffmpeg_https_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -56,8 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         setState(() {
           if (ReturnCode.isSuccess(returnCode)) {
-            _output =
-                'FFmpeg is working!\n\nVersion info:\n${output ?? 'No output'}';
+            _output = 'FFmpeg is working!\n\nVersion info:\n${output ?? 'No output'}';
           } else {
             _output = 'FFmpeg test failed with return code: $returnCode';
           }
@@ -85,17 +82,12 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             ElevatedButton(
               onPressed: _isLoading ? null : _testFFmpeg,
-              child: _isLoading
-                  ? const CircularProgressIndicator(color: Colors.white)
-                  : const Text('Test FFmpeg'),
+              child: _isLoading ? const CircularProgressIndicator(color: Colors.white) : const Text('Test FFmpeg'),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const FfmpegConvertPage()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const FfmpegConvertPage()));
               },
               child: const Text('Test convert audio'),
             ),

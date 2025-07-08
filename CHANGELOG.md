@@ -1,3 +1,6 @@
+## 1.0.8
+- Update Example
+
 ## 1.0.7
 - Update README.md
 
