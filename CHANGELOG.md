@@ -1,3 +1,7 @@
+## 1.0.6
+- Update Java compatibility to Java 11
+- Fix version number consistency to 6.0.2
+
 ## 1.0.5
 - Ufix issue #1
 
