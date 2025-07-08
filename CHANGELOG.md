@@ -1,5 +1,7 @@
+## 1.0.5
+- Ufix issue #1
 
-## 1.0.3
+## 1.0.4
 - Update pubspec.yaml homepage
 
 ## 1.0.3
