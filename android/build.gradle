@@ -52,7 +52,7 @@ android {
 
 dependencies {
     implementation 'androidx.annotation:annotation:1.5.0'
-    implementation 'com.arthenica:ffmpeg-kit-audio:6.0-2'
+    implementation 'com.arthenica:ffmpeg-kit-audio:6.0.2'
     // implementation fileTree(dir: 'libs', include: ['*.aar'])
     // implementation 'com.github.chenjun1127:ffmpeg-kit-https-aar:v1.0.6'
     implementation "com.arthenica:smart-exception-java:0.2.1"
