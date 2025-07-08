@@ -1,3 +1,6 @@
+## 1.0.7
+- Update README.md
+
 ## 1.0.6
 - Update Java compatibility to Java 11
 - Fix version number consistency to 6.0.2
@@ -15,7 +18,7 @@
 - Update repository, remove macos 
 
 ## 1.0.1
-- Update REMADME.md
+- Update README.md
 
 ## 1.0.0
 - The official audio version of a Flutter plugin forked from ffmpeg-kit, supporting iOS and Android.
