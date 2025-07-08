@@ -53,7 +53,7 @@ The following table shows Android API level, iOS deployment target and macOS dep
 ffmpeg_kit_flutter_new releases.
 
 | LTS Release | Android | API Level | iOS Minimum Deployment Target | macOS Minimum Deployment Target |
-| --- | --- | --- | --- | --- |
+|:------------:|:--------:|:---------:|:----------------------------:|:-------------------------------:|
 | 24 | 14 | 10.15 | 12 | 12 |
 
 ### 4. Using
